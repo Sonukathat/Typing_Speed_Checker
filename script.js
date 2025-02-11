@@ -42,8 +42,6 @@ btn1.addEventListener("click", async function(){
     // btn1.style.Color = "black";
 })
 
-
-
 btn2.addEventListener("click", function(){
    if (!quotePara){
      alert("Click To Start");
@@ -61,7 +59,6 @@ btn2.addEventListener("click", function(){
    btnTwo();
 })
  
-
 
 function btnTwo(){
     let text = type.value.split(" ");
