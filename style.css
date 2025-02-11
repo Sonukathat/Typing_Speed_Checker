@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom,#F7CFD8,#F4F8D3,#A6F1E0,#73C7C7);
+}
+.container{
+    box-shadow: 0 0 10px black;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 40%;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+#type{
+    height: 6rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+.div2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.div2 button{
+    height: 2rem;
+    width: 20%;
+    border-radius: 1rem;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 3px black;
+}
+#p2{
+    background-color: white;
+    height: 1rem;
+    padding: 0.52rem;
+    width: 15%;
+    text-align: center;
+    border-radius: 1rem;
+    display: block;
+    box-shadow: 0 0 3px black;
+}
+#heading{
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width: 1440px){
+    .container{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .container{
+        width: 80%;
+    }
+    .div2 button{
+        width: 35%;
+    }
+    #heading{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .container{
+        width: 75%;
+    }
+    #heading{
+        font-size: 1.5rem;
+    }
+}
