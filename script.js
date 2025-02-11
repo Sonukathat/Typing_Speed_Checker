@@ -20,6 +20,7 @@ btn1.addEventListener("click", async function(){
       quotePara = document.createElement("p");
       div1.insertBefore(quotePara, p1).innerText = data.quote;
       p1.innerText = "Start Typing...";
+      type.value = "";
       type.disabled = false;
       
       isTimerRunning = true;
@@ -35,8 +36,9 @@ btn1.addEventListener("click", async function(){
             type.disabled = true;
             btn1.disabled = false;
         }
-    }, 1000);
+    }, 100);
     btn1.disabled = true;
+    btn2.innerText = "Check Speed";
     // btn1.style.Color = "black";
 })
 
