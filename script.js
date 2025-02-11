@@ -36,7 +36,7 @@ btn1.addEventListener("click", async function(){
             type.disabled = true;
             btn1.disabled = false;
         }
-    }, 100);
+    }, 1000);
     btn1.disabled = true;
     btn2.innerText = "Check Speed";
     // btn1.style.Color = "black";
